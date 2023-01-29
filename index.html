@@ -5,64 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Run</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"  />
     <link rel="stylesheet" href="style.css">
 </head>
-    <header>
-        <div class="header-container">
-            <div class="header-l">
-                <h1>run</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam cumque fugit accusantium quibusdam quam quis saepe suscipit, ipsa perspiciatis eaque.   </p>
-                <button type="text">get started</button>
-            </div>
-         
-            <div class="header-r">
-            <img src="./Assets/img/banner.jpg" alt="">             
-            </div> 
-        </div>
-    </header>
-    
 <body>
-    <section class="body-top1-container">
-             <img class="img-l" src="./Assets/img/img-left.jpg" alt="homme courant en foret">
-        <div class="body-top1r">
-        <h2>Lorem ipsum dolor</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam qui, est accusantium rerum, libero quos quisquam obcaecati soluta impedit, dolore quam odit veritatis quidem in asperiores eaque quis inventore quas voluptates. Repudiandae aperiam qui deserunt </p>
-        <button type="text">get started</button></div>
-       
+    <header>
+        <div class="container">
+                <div>
+                    <h1>Run</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam cumque fugit accusantium quibusdam quam quis saepe suscipit, ipsa perspiciatis eaque.   </p>
+                    <a href="#" class="button">get started</a>
+                </div>
+            </div>
+        <div class="img-banner"></div>
+          </header>
+    
+    <section class="section-1">
+        <div class="img"></div>     
+            <div class="container">
+                <div>
+                    <h2>Lorem ipsum dolor</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam qui, est accusantium rerum, libero quos quisquam obcaecati soluta impedit, dolore quam odit veritatis quidem in asperiores eaque quis inventore quas voluptates. Repudiandae aperiam qui deserunt </p>
+                    <a href="#" class="button">get started</a>
+             </div>
+        </div>
     </section>
      
-    <section class="body-top2-container">
-        <div class="body-top2l">
-            <h2>Lorem ipsum</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam qui, est accusantium rerum, libero quos quisquam obcaecati soluta impedit, dolore quam odit veritatis quidem in asperiores eaque quis inventore quas voluptates. Repudiandae aperiam qui </p>
-            <button type="text">get started</button>
+    <section class="section-2">
+        <div class="container">
+            <div>
+                <h2>Lorem ipsum</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam qui, est accusantium rerum, libero quos quisquam obcaecati soluta impedit, dolore quam odit veritatis quidem in asperiores eaque quis inventore quas voluptates. Repudiandae aperiam qui </p>
+                <a href="" class="button">get started</a>
+            </div>
         </div>
-        <img src="./Assets/img/img-right.jpg" alt="" class="img-r">
+        <div class="img"></div>
     </section>
                
-    <section class="body-getin">
-        <h3 class="h2gi">Get in touch</h3>
-        <section class="form">
-        <form action="">
-            <!-- <h4 class="name">Name</h4> -->
-            <input type="text" class="name">
-            <!-- <h4 class="email">Email</h4> -->
-            <input type="text" class="email">
-            <!-- <h4 class="message">Message</h4> -->
-            <textarea class="msg" id="" cols="50" rows="10">           
-            </textarea>
-            <input type="submit" value="SEND MESSAGE" class="sub">
+    <section class="contact">
+        <h2>Get in touch</h2>
+        <form method="post" action="#">
+          <div class="form-grid">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="text" id="email" />
+            </div>
+            <div class="textarea">
+              <label for="message">Message</label>
+              <textarea id="message"></textarea>
+            </div>
+          </div>
+          <input type="submit" class="button" value="Send Message" />
         </form>
-        </section>
-    </section>
-    </body>
-        <footer>
-            <section class="footer-ms">
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-instagram"></i>
-            </section>
-        </footer>
+      </section>
     
+    
+    <footer>
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+                
+    </footer>
+</body>
 </html>
