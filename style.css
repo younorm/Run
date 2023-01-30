@@ -91,7 +91,7 @@ header {
     min-height: 400px;
 }
 .section-1 .img {
-    background: url(./Assets/img/img-left.jpg) center/cover;
+    background: url(../Assets/img/img-left.jpg) center/cover;
 }
 
 /**************** SECTION 2 *****************/
